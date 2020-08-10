@@ -1,2 +1,0 @@
-E:\unityWorkspace\LuaFramework_UGUI-master-20190327\LuaFramework_UGUI-master\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-E:\unityWorkspace\LuaFramework_UGUI-master-20190327\LuaFramework_UGUI-master\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
