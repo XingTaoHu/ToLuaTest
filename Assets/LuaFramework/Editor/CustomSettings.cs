@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿#define USING_DOTWEENING
+
+using UnityEngine;
 using System;
 using System.Collections.Generic;
 using LuaInterface;
@@ -36,14 +38,16 @@ public static class CustomSettings
     };
 
     //附加导出委托类型(在导出委托时, customTypeList 中牵扯的委托类型都会导出， 无需写在这里)
-    public static DelegateType[] customDelegateList = 
-    {        
-        _DT(typeof(Action)),                
+    public static DelegateType[] customDelegateList =
+    {
+        _DT(typeof(Action)),
         _DT(typeof(UnityEngine.Events.UnityAction)),
         _DT(typeof(System.Predicate<int>)),
         _DT(typeof(System.Action<int>)),
         _DT(typeof(System.Comparison<int>)),
         _DT(typeof(System.Func<int, int>)),
+
+        _DT(typeof(DG.Tweening.TweenCallback)),
     };
 
     //在这里添加你要导出注册到lua的类型列表
