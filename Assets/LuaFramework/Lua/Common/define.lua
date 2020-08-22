@@ -3,14 +3,18 @@ CtrlNames = {
 	Prompt = "PromptCtrl",
 	Message = "MessageCtrl",
 	First = "FirstCtrl",
-	Login = "Login/LoginCtrl"
+	Login = "Login/LoginCtrl",
+	Hall = "Hall/HallCtrl",
+	Ranking = "Hall/RankingCtrl"
 }
 
 PanelNames = {
 	"PromptPanel",	
 	"MessagePanel",
 	"FirstPanel",
-	"Login/LoginPanel"
+	"Login/LoginPanel",
+	"Hall/HallPanel",
+	"Hall/RankingPanel"
 }
 
 --协议类型--

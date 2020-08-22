@@ -3,6 +3,8 @@ require "Controller/PromptCtrl"
 require "Controller/MessageCtrl"
 require "Controller/FirstCtrl"
 require "Controller/Login/LoginCtrl"
+require "Controller/Hall/HallCtrl"
+require "Controller/Hall/RankingCtrl"
 
 CtrlManager = {};
 local this = CtrlManager;

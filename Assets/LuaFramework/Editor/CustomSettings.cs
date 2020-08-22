@@ -102,6 +102,8 @@ public static class CustomSettings
         //_GT(typeof(TrailRenderer))
 #endif
       
+        _GT(typeof(LuaComponent)),
+
         _GT(typeof(Behaviour)),
         _GT(typeof(MonoBehaviour)),        
         _GT(typeof(GameObject)),

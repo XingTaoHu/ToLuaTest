@@ -51,7 +51,8 @@ function Game.OnInitOK()
     --local ctrl = CtrlManager.GetCtrl(CtrlNames.Prompt);
     local ctrl = CtrlManager.GetCtrl(CtrlNames.Login);
     if ctrl ~= nil and AppConst.ExampleMode == 1 then
-        ctrl:Awake();
+        --就是这一句决定首先加载什么面板--
+        --ctrl:Awake();
     end
        
     logWarn('LuaFramework InitOK--->>>');

@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\LuaFramework\Plugins\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+     <Compile Include="Assets\LuaFramework\Scripts\Common\CustomBehaviour.cs" />
      <Compile Include="Assets\LuaFramework\Scripts\Common\EventsSupport.cs" />
      <Compile Include="Assets\LuaFramework\Scripts\Common\LuaBehaviour.cs" />
      <Compile Include="Assets\LuaFramework\Scripts\Common\LuaLoader.cs" />
@@ -86,6 +87,7 @@
      <Compile Include="Assets\LuaFramework\Scripts\ObjectPool\GameObjectPool.cs" />
      <Compile Include="Assets\LuaFramework\Scripts\ObjectPool\ObjectPool.cs" />
      <Compile Include="Assets\LuaFramework\Scripts\ObjectPool\TestObjectClass.cs" />
+     <Compile Include="Assets\LuaFramework\Scripts\Utility\LuaComponent.cs" />
      <Compile Include="Assets\LuaFramework\Scripts\Utility\LuaHelper.cs" />
      <Compile Include="Assets\LuaFramework\Scripts\Utility\Util.cs" />
      <Compile Include="Assets\LuaFramework\Scripts\View\AppView.cs" />
@@ -201,6 +203,7 @@
      <Compile Include="Assets\LuaFramework\ToLua\Source\Generate\DG_Tweening_TweenerWrap.cs" />
      <Compile Include="Assets\LuaFramework\ToLua\Source\Generate\DelegateFactory.cs" />
      <Compile Include="Assets\LuaFramework\ToLua\Source\Generate\LuaBinder.cs" />
+     <Compile Include="Assets\LuaFramework\ToLua\Source\Generate\LuaComponentWrap.cs" />
      <Compile Include="Assets\LuaFramework\ToLua\Source\Generate\LuaFramework_AppConstWrap.cs" />
      <Compile Include="Assets\LuaFramework\ToLua\Source\Generate\LuaFramework_ByteBufferWrap.cs" />
      <Compile Include="Assets\LuaFramework\ToLua\Source\Generate\LuaFramework_GameManagerWrap.cs" />

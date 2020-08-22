@@ -24,4 +24,4 @@ ClassTypes:
 Assets:
 - Assets/LuaFramework/CustomPrj/Prefabs/ImgOrc.prefab
 Dependencies:
-- E:/unityWorkspace/LuaFramework_UGUI-master-20190327/LuaFramework_UGUI-master/Assets/StreamingAssets/prompt_asset.unity3d
+- E:/githubWorkspace/ToLuaTest/Assets/StreamingAssets/prompt_asset.unity3d

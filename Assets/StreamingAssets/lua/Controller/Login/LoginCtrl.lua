@@ -38,7 +38,7 @@ function LoginCtrl.OnCreate(obj)
     UIEventEx.AddInputFieldEndEditHandler(LoginPanel.accountInput, function (account)
         log("账号输入结束，账号"..account);
     end);
-    UIEventEx.AddToggle(LoginPanel.savePwdToggle, function (go, toggleVal)
+    UIEventEx.AddToggle(LoginPanel.savePwdToggle, function (toggleVal)
         log("记住密码:"..tostring(toggleVal));
     end);
 end
