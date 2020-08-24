@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2417877396
+CRC: 3609302299
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -22,8 +22,11 @@ AssetBundleManifest:
       Name: login.unity3d
       Dependencies: {}
     Info_5:
-      Name: prompt_asset.unity3d
+      Name: shop.unity3d
       Dependencies: {}
     Info_6:
+      Name: prompt_asset.unity3d
+      Dependencies: {}
+    Info_7:
       Name: shared_asset.unity3d
       Dependencies: {}

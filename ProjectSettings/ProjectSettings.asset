@@ -6,12 +6,12 @@ PlayerSettings:
   serializedVersion: 11
   productGUID: 7a300422526be2141b3bc526ddfb121b
   AndroidProfiler: 0
-  defaultScreenOrientation: 0
+  defaultScreenOrientation: 3
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: LuaFramework_UGUI
+  companyName: rainer
+  productName: lua_test
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21176471, a: 1}
@@ -141,7 +141,7 @@ PlayerSettings:
   protectGraphicsMemory: 0
   useHDRDisplay: 0
   applicationIdentifier:
-    Android: com.junfine.luaframework
+    Android: com.rainer.luatest
     Standalone: unity.DefaultCompany.LuaFramework_UGUI
     Tizen: com.junfine.luaframework
     iOS: com.junfine.luaframework
@@ -225,7 +225,7 @@ PlayerSettings:
   iOSManualSigningProvisioningProfileID: 
   tvOSManualSigningProvisioningProfileID: 
   appleEnableAutomaticSigning: 0
-  AndroidTargetDevice: 0
+  AndroidTargetDevice: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: 

@@ -5,7 +5,8 @@ CtrlNames = {
 	First = "FirstCtrl",
 	Login = "Login/LoginCtrl",
 	Hall = "Hall/HallCtrl",
-	Ranking = "Hall/RankingCtrl"
+	Ranking = "Hall/RankingCtrl",
+	Shop = "Shop/ShopCtrl"
 }
 
 PanelNames = {
@@ -14,7 +15,8 @@ PanelNames = {
 	"FirstPanel",
 	"Login/LoginPanel",
 	"Hall/HallPanel",
-	"Hall/RankingPanel"
+	"Hall/RankingPanel",
+	"Shop/ShopPanel"
 }
 
 --协议类型--

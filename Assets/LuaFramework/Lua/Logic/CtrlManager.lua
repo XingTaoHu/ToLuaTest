@@ -5,6 +5,7 @@ require "Controller/FirstCtrl"
 require "Controller/Login/LoginCtrl"
 require "Controller/Hall/HallCtrl"
 require "Controller/Hall/RankingCtrl"
+require "Controller/Shop/ShopCtrl"
 
 CtrlManager = {};
 local this = CtrlManager;
@@ -18,6 +19,7 @@ function CtrlManager.Init()
 	ctrlList[CtrlNames.Login] = LoginCtrl.New();
 	ctrlList[CtrlNames.Hall] = HallCtrl.New();
 	ctrlList[CtrlNames.Ranking] = RankingCtrl.New();
+	ctrlList[CtrlNames.Shop] = ShopCtrl.New();
 	return this;
 end
 

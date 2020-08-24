@@ -8,7 +8,7 @@ local gameObject;
 --构建函数--
 function FirstCtrl.New()
     logWarn("FirstCtrl.Awake--->>");
-    panelMgr:CreatePanel('First', this.OnCreate);
+    --panelMgr:CreatePanel('First', this.OnCreate);
 end
 
 --启动事件--

@@ -54,7 +54,11 @@ function Game.OnInitOK()
         --就是这一句决定首先加载什么面板--
         --ctrl:Awake();
     end
-       
+
+    --查找HallPanel对象，并发起对HallPanel.Awake的调用
+    local objHallPanel = UnityEngine.GameObject.Find("Canvas").transform:GetChild(0).gameObject;
+    HallPanel.Awake(objHallPanel);
+
     logWarn('LuaFramework InitOK--->>>');
 end
 

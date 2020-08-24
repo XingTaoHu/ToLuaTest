@@ -23,6 +23,15 @@ function HallCtrl.OnCreate(obj)
 
     UIEventEx.AddButtonClick(HallPanel.btnRanking, function ()
         log("you clicked ranking btn");
+
+        HallPanel.rankingPanel.gameObject:SetActive(true);
+    end);
+
+    UIEventEx.AddButtonClick(HallPanel.btnShop, function ()
+        log("you clicked shop btn");
+        --实例化商店面板--
+        local shopCtrl = CtrlManager.GetCtrl(CtrlNames.Shop);
+        shopCtrl:Awake();
     end);
 end
 

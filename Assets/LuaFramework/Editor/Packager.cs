@@ -170,6 +170,8 @@ public class Packager {
         AddBuildMap("prefabs" + AppConst.ExtName, "*.prefab", "Assets/LuaFramework/CustomPrj/Prefabs");
         //打包新添加LoginPanel预制体
         AddBuildMap("login" + AppConst.ExtName, "*.prefab", "Assets/LuaFramework/CustomPrj/Login");
+        //打包准备测试用的ShopPanel预制体
+        AddBuildMap("shop" + AppConst.ExtName, "*.prefab", "Assets/LuaFramework/CustomPrj/Shop");
 
         AddBuildMap("prompt_asset" + AppConst.ExtName, "*.png", "Assets/LuaFramework/Examples/Textures/Prompt");
         AddBuildMap("shared_asset" + AppConst.ExtName, "*.png", "Assets/LuaFramework/Examples/Textures/Shared");
